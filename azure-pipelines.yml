@@ -40,11 +40,3 @@ steps:
     codeCoverageToolOption: 'JaCoCo'
     testResultsFiles: '**/TEST-*.xml'
     goals: 'verify'
-
-
-# Uncomment the next task to wait until SonarCloud processing has
-# finished and to publish the result on the Pipeline build summary
-- task: SonarCloudPublish@1
-  displayName: 'Publish results on build summary'
-  inputs:
-    pollingTimeoutSec: '300'
