@@ -10,7 +10,7 @@
 # https://docs.microsoft.com/en-gb/azure/devops/pipelines/customize-pipeline?view=azure-devops
 
 trigger:
-- sonarcodecheck
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
